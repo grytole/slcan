@@ -34,6 +34,8 @@ sudo make flash
 
 #### Usage
 ```
+sudo apt install can-utils
+
 sudo modprobe can
 sudo modprobe can-raw
 sudo modprobe slcan
